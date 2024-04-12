@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using VerifyCS = DocAnalyzer.Test.CSharpCodeFixVerifier<
-    DocAnalyzer.DocAnalyzerAnalyzer,
+    DocAnalyzer.DocAnalyzer,
     DocAnalyzer.DocAnalyzerCodeFixProvider>;
 
 namespace DocAnalyzer.Test

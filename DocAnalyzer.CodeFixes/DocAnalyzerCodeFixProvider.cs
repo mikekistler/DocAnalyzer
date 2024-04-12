@@ -20,7 +20,7 @@ namespace DocAnalyzer
     {
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(DocAnalyzerAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(DocAnalyzer.DiagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
